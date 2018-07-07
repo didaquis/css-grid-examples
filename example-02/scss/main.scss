@@ -1,0 +1,49 @@
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 8rem);
+	grid-template-rows: repeat(4, 8rem);
+
+	&__item {
+		/* This rules are for numbers inside blocks */
+		font-size: 3rem;
+		font-family: sans-seriff;
+		color: white;
+
+		/* Using flex inside of grid for center elements */
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__item-1 {
+		grid-column: span 2;
+	}
+
+	&__item-2 {
+		grid-row: span 2;
+	}
+
+	&__item-4 {
+		grid-column: 1; /* Caution: "grid-row: 3;" have non desired effects because "autoplacement" is setted to rows by default! */
+	}
+
+	&__item-5 {
+		grid-column: span 2;
+	}
+
+	&__item-6 {
+		grid-column: 2;
+	}
+}
+
+.orange {
+	background-color: #EB5D45;
+}
+
+.green {
+	background-color: #22B5B0;
+}
+
+.black {
+	background-color: #333;
+}

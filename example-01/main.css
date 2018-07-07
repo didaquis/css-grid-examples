@@ -1,0 +1,42 @@
+.grid {
+  display: grid;
+  grid-template-rows: 4rem 4rem 4rem 4rem;
+  /* Grid with 4 rows, each row of 4rem */
+  grid-template-columns: repeat(8, 4rem);
+  /* Grid with 8 columns, each column of 4rem */
+  transform: rotate(-45deg); }
+  .grid__item {
+    /* This rules are for numbers inside blocks */
+    font-size: 2rem;
+    font-family: sans-seriff;
+    color: white;
+    /* Using flex inside of grid for center elements */
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .grid__item-1 {
+    background-color: #009BB1; }
+  .grid__item-2 {
+    background-color: #EE8C1D;
+    grid-column: 1;
+    /* Moved item 2 to the column 1 */ }
+  .grid__item-3 {
+    background-color: #05368C;
+    grid-column: 1; }
+  .grid__item-4 {
+    background-color: #009135;
+    grid-column: 1; }
+  .grid__item-5 {
+    background-color: #E22961; }
+  .grid__item-6 {
+    background-color: #5C66A5; }
+  .grid__item-7 {
+    background-color: #FCCC29; }
+  .grid__item-8 {
+    background-color: #62B9E4; }
+  .grid__item-9 {
+    background-color: #E1261C; }
+  .grid__item-10 {
+    background-color: #95CB22; }
+  .grid__item-11 {
+    background-color: #911C7F; }
