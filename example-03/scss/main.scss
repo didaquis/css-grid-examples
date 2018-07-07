@@ -1,0 +1,52 @@
+/* Universal Box Sizing */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Create some areas: header, bad, empty, religion */
+.header {
+	grid-area: header;
+	background-color: #000;
+}
+.bad {
+	grid-area: bad;
+	background-color: #F33E00;
+}
+.empty {
+	grid-area: empty;
+	background-color: #F33E00;
+}
+.religion {
+	grid-area: religion;
+	background-color: #F33E00;
+}
+
+.grid {
+	background-color: #DBE1D0;
+	min-height: 100vh;
+	padding: 1rem;
+
+	display: grid;
+	/* The next rule defined how areas need to expand. Also, we are declaring a row of 2 columns and 3 rows */
+	grid-template-areas:
+		"header 	header"
+		"bad 		empty"
+		"religion 	religion";
+
+	grid-gap: 1rem;
+	grid-template-columns: 2fr 1fr;
+	grid-template-columns: minmax(20rem, 2fr) minmax(10rem, 1fr);
+	grid-template-rows: 6rem 1fr 1fr; /* First row of 6rem, second and third row take the free space equally */
+
+	&__item {
+		/* This rules are for numbers inside blocks */
+		font-size: 3rem;
+		font-family: sans-seriff;
+		color: white;
+
+		/* Using flex inside of grid for center elements */
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}

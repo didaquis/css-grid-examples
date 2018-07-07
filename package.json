@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build_css_example-01": "sass example-01/scss/main.scss:example-01/main.css --sourcemap=none --watch",
-    "build_css_example-02": "sass example-02/scss/main.scss:example-02/main.css --sourcemap=none --watch"
+    "build_css_example-02": "sass example-02/scss/main.scss:example-02/main.css --sourcemap=none --watch",
+    "build_css_example-03": "sass example-03/scss/main.scss:example-03/main.css --sourcemap=none --watch"
   },
   "keywords": ["css", "grid", "examples"],
   "author": "",
