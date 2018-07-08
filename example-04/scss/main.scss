@@ -1,0 +1,33 @@
+.wrapper {
+	display: grid;
+	grid-template-rows: repeat(4, 12rem);
+	grid-template-columns: repeat(3, 12rem);
+
+	&__item-1 {
+		background-color: #D1D3D5;
+	}
+
+	&__item-2, &__item-3 {
+		background-color: #CB0573;
+	}
+
+	&__item-4 {
+		background-color: #FFD739;
+	}
+
+	&__item-5 {
+		background-color: #F9071A;
+	}
+
+	&__item-6 {
+		background-color: #CB0573;
+	}
+
+	&__item-7, &__item-8 {
+		background-color: #FFD739;
+	}
+
+	&__item-9, &__item-10, &__item-11, &__item-12 {
+		background-color: #D1D3D5;
+	}
+}
