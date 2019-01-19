@@ -7,6 +7,7 @@ This repo contain some examples of CSS Grid.
 * [example-02](./example-02/example-02.html)
 * [example-03](./example-03/example-03.html)
 * [example-04](./example-04/example-04.html)
+* [example-05 (Holy Grail Layout)](./example-05/example-05.html)
 
 
 ## Some useful links:

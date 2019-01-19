@@ -1,6 +1,6 @@
 {
   "name": "css-grid-examples",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "CSS Grid examples",
   "main": "",
   "scripts": {
@@ -8,7 +8,8 @@
     "build_css_example-01": "sass example-01/scss/main.scss:example-01/main.css --sourcemap=none --watch",
     "build_css_example-02": "sass example-02/scss/main.scss:example-02/main.css --sourcemap=none --watch",
     "build_css_example-03": "sass example-03/scss/main.scss:example-03/main.css --sourcemap=none --watch",
-    "build_css_example-04": "sass example-04/scss/main.scss:example-04/main.css --sourcemap=none --watch"
+    "build_css_example-04": "sass example-04/scss/main.scss:example-04/main.css --sourcemap=none --watch",
+    "build_css_example-05": "sass example-05/scss/main.scss:example-05/main.css --sourcemap=none --watch"
   },
   "keywords": ["css", "grid", "examples"],
   "author": "",
