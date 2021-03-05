@@ -9,6 +9,9 @@ This repo contain some examples of CSS Grid.
 * [example-04](./example-04/example-04.html)
 * [example-05 (Holy Grail Layout)](./example-05/example-05.html)
 
+### Bonus:
+* [example-06 (sticky header and footer using flexbox)](./example-06/example-06.html)
+
 
 ## Some useful links:
 * Rock' n' Grid - Diana Aceves WeCodeFest 2018. [Rock' n' Grid](https://www.youtube.com/watch?v=p7oXrr9yjXY)

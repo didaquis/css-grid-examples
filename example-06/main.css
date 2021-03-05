@@ -1,0 +1,18 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+.body__header {
+  background: olive;
+  height: 3rem;
+  flex-shrink: 0; }
+
+.body__main {
+  background: salmon;
+  flex-grow: 1; }
+
+.body__footer {
+  background: green;
+  height: 4rem;
+  flex-shrink: 0; }
